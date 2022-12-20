@@ -80,6 +80,10 @@ ul {
 
 
 .pigTile {
+  height: 450px;
+  width: auto;
+  max-width: 46%;
+  max-height: auto;
   display: inline;
   background-repeat: no-repeat;
   background-position: center 90%;
@@ -89,6 +93,11 @@ ul {
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+}
+
+.pigTile > * {
+  max-height: 50%;
+  max-width: 100%;
 }
 
 .minBackgroundSneak {
